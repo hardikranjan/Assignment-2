@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite1" verbose="1">
+
+    <test name="test1">
+	<parameter name="website" value="https://loadfocus.com/blog/2016/06/13/how-to-select-a-dropdown-in-selenium-webdriver-using-java"></parameter>
+    <parameter name="dropdown" value=".dropdown"></parameter>  
+        <classes>
+            <class name="com.hardik.seleniumAssignment.Operator" />	
+        </classes>
+    </test>
+</suite>

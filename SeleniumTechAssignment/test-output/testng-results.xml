@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading Respective Property File]]>
+    </line>
+    <line>
+      <![CDATA[Open Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Open Appdirect HomePage]]>
+    </line>
+    <line>
+      <![CDATA[Verify If Appdirect HomePage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Open SignUp Page]]>
+    </line>
+    <line>
+      <![CDATA[Verify If Appdirect LoginPages is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43365" started-at="2017-04-06T12:39:09Z" finished-at="2017-04-06T12:39:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43365" started-at="2017-04-06T12:39:09Z" finished-at="2017-04-06T12:39:52Z">
+      <class name="com.hardik.seleniumAssignment.Operator">
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.hardik.seleniumAssignment.Operator@4f7d0008]" name="browser" duration-ms="6012" started-at="2017-04-06T18:09:09Z" finished-at="2017-04-06T18:09:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading Respective Property File]]>
+            </line>
+            <line>
+              <![CDATA[Open Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.hardik.seleniumAssignment.Operator@4f7d0008]" name="verifyHomePage" duration-ms="26037" started-at="2017-04-06T18:09:15Z" finished-at="2017-04-06T18:09:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Appdirect HomePage]]>
+            </line>
+            <line>
+              <![CDATA[Verify If Appdirect HomePage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.hardik.seleniumAssignment.Operator@4f7d0008]" name="verifyLoginPage" duration-ms="11065" started-at="2017-04-06T18:09:41Z" depends-on-methods="com.hardik.seleniumAssignment.Operator.verifyHomePage" finished-at="2017-04-06T18:09:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Open SignUp Page]]>
+            </line>
+            <line>
+              <![CDATA[Verify If Appdirect LoginPages is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="verifySignUpPage()[pri:0, instance:com.hardik.seleniumAssignment.Operator@4f7d0008]" name="verifySignUpPage" duration-ms="231" started-at="2017-04-06T18:09:52Z" depends-on-methods="com.hardik.seleniumAssignment.Operator.verifyLoginPage" finished-at="2017-04-06T18:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPage -->
+      </class> <!-- com.hardik.seleniumAssignment.Operator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
